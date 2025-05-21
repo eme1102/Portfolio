@@ -1,7 +1,105 @@
+body{
+    background-color: rgb(245, 206, 212);
+    
+}
 #navbar {
+  position: fixed;
   display: flex;
   justify-content: center;
+  margin-top: -1vh;
   width: 100%;
-  background-color: rgb(0,0,150)
+  background-color: rgb(150, 0, 0)
+}
 
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-family: serif;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: white;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(255, 179, 179, 0.911);
+}
+
+
+#contact h1 {
+    font-size: 70px;
+}
+
+#contact p {
+    margin-top: -1vh;
+    font-size: 40px;
+}
+
+#experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#experience h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#experience p {
+    font-size: 20px;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+#interests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 179, 179, 0.911);
+}
+
+#interests h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#interests  p {
+    font-size: 20px;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#game p{
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(150, 0, 0);
+    color: white;
+    text-align: center;
+    margin: 5px;
 }
